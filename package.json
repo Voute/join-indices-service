@@ -1,0 +1,22 @@
+{
+	"name": "join-indices-service",
+	"version": "0.1.0",
+	"description": "Join Indices Service is a component that makes available indices joining in Elasticsearch.",
+	"main": "./src/index.js",
+	"scripts": "node ./src/index.js",
+	"author": "Egor Tokmakov",
+	"repository" {
+		"type": "git",
+		"url": "https://github.com/Voute/join-indices-service.git"
+	},
+	"dependencies": {
+		"body-parser": "1.18.3",
+		"express": "4.16.4",
+		"log4js": "3.0.6",
+		"elasticsearch": "15.2.0"
+	},
+	"engines": {
+		"node": "v8.9.4",
+		"npm": "5.6.0"
+	}
+}
