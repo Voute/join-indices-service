@@ -1,0 +1,35 @@
+# Service Listen Host
+#service.host
+#
+# Service Listen Port
+#service.port
+#
+###################################################
+#
+# Elasticsearch Host
+#es.host
+#
+# Elasticsearch Port
+#es.port
+#
+###################################################
+#
+# Logging filename (path to file)
+#logging.path = "./logs/ijs.log"
+#
+# Logging maxLogSize (max file size)
+#logging.maxLogSize = 5242880
+#
+# Logging backups (logging rotation quantity)
+#logging.backups = 5
+#
+# Logging Level
+#logging.level = debug
+#
+###################################################
+#
+# Scrolling Period
+#scroll.period = 20s
+#
+# Scrolling Size
+#scroll.size = 500

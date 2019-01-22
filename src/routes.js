@@ -1,3 +1,5 @@
+"use strict";
+
 var es = require('elasticsearch');
 var initiateLogger = require('./logger.js');
 
